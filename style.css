@@ -1,4 +1,31 @@
-#fotoperfil{ 
-    width:150px ;
+.contenedor{
+    background-color: rgba(243, 200, 149, 0.9);
+}
+
+
+
+
+
+
+#titulo{
+    display:flex;
+    justify-content: center;
+    width: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+    }
+.fotoperfil { 
+    justify-content: center;
+    width: 150px;
+    aspect-ratio: auto 150 / 212;
+
+}
+.columna2 {
+    width: 250px;
+    padding: 100px,50px 25px;
+    background-color:rgb(237, 192, 180)
+    text: aligne px;
+    
+    
 
 }
