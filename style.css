@@ -2,75 +2,82 @@
     margin=0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:fantasy
     text-align: center;
     
 }
 body{
     background-color: rgb(247, 218, 160);
+    text-align: center;
 }
 .header{
-    height: 35mp;
+    height: 45mp;
     color:white
-   
-   
+    text-align: center;
+
 }
-
-
 .header img{
     text-align: center;
-    width: 250px;
+    width: 200px;
     border: solid 3px white;
-    transform:translateY(300)
-    
-
-}
+    border: radius 300%;
+    }
 .texto{
-    font-size:2rem;
+    font-size:1rem;
+    padding:0px 40px
 }
 #titulo{
     text-align: center;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 10px 0;
     justify-content: center;
-    width: 800px;
+    width: auto;
     font-size:2rem;
     background-color:rgb(151, 116, 89)
     }
 .main{
-    height:100vh;
-    padding: 110px,200px 25px;
+    height:auto;
+    padding: 300px,200px 25px;
     background-color:rgb(226, 144, 104)
+    
+
 }
 .sección{
     margin:auto;
-    padding:150px 20px
-    width:90px;
+    padding:10px 10px;
+    padding-bottom: 50px
+    width: 90%;
     box-shadow:1px 1px 10px chocolate
-    text-align: center
+    text-align: center;
 }
 .icons{
     padding:20px 0 ;
     color:brown
+    
 
 }
 .icons i{
     margin:0 5px;
+    cursor:pointer
 }
 .sección article{
     margin-bottom:10px ;
     text-align: center;
-    background-color: brown
-;
+    background-color: brown;
 }
 .btns{
-    padding:20px 30px
-    background-color:brown;
-    border:none;
-    color:white 
-    margin:0 10px;
-    cursor:pointer
+    padding:20px 300px
+    color:chocolate
+    font-family:georgia
+    cursor:
 
+    
 }
-.contenedor2{
+.contenido{
+    margin: 50mp 0mp ;
+}
+.contenido h3{
+    color: brown;
+    background-color: blanchedalmond;
     text-align: center;
+    font-family:monospace;
 }
