@@ -9,7 +9,7 @@
 body{
     background-color: rgb(247, 218, 160);
     text-align: center;}
-.header.logo{
+.header.logo.color{
     font-weight: bold;
     font-size: 2,5rem;
     font-family:"yelowtail";
@@ -28,36 +28,41 @@ body{
     border: radius 300%;
     }
 .texto{
-    font-size:1rem;
-    padding:0px 40px
+    padding-top: 40px ;
+    background-color:rgb(237, 209, 195)
+
 }
 #titulo{
+    position:relative;
     text-align: center;
+    background-color: hwb(35 49% 17%);
     padding: 100px 0 10px 0;
     justify-content: center;
     width: auto;
-    font-size:2rem;
+    font-size:3rem;
     background-color:rgb(151, 116, 89)
+    
+
+    letter-spacing: 5mp;
     }
 .main{
     height:auto;
     padding: 300px,200px 25px;
     background-color:rgb(226, 144, 104)
-    
+    box-shadow: 0 0 20px #fff;
 
 }
 .sección{
     margin:auto;
     padding:10px 10px;
     padding-bottom: 50px
-    width: 90%;
     box-shadow:1px 1px 10px chocolate
     text-align: center;
 }
 .icons{
     padding:20px 0 ;
     color:brown
-    
+   
 
 }
 .icons i{
@@ -68,12 +73,11 @@ body{
     margin-bottom:10px ;
     text-align: center;
     background-color: brown;
+    font-family:"yelowtail"
 }
 .btns{
     padding:20px 300px
-    color:chocolate
-    font-family:georgia
-    cursor:
+    cursor:pointer
 
     
 }
