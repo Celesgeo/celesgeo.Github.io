@@ -1,41 +1,75 @@
 *{
     margin=0;
-    padding: 5;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     text-align: center;
-    border-radius: 300%;
+    
+}
+body{
+    background-color: rgb(247, 218, 160);
 }
 .header{
-    height: 30mp;
+    height: 35mp;
     color:white
+   
+   
 }
 
 
 .header img{
     text-align: center;
-    width: 200px;
-    border-radius: 150%;
+    width: 250px;
     border: solid 3px white;
-    transform:translateY(100)
-}
-body{
-    background-color: rgb(247, 218, 160);
+    transform:translateY(300)
+    
+
 }
 .texto{
     font-size:2rem;
-    margin-bottom: 10mp;
 }
 #titulo{
-    padding: 150px 0 40px 0;
+    text-align: center;
+    padding: 100px 0 50px 0;
     justify-content: center;
-    width:50mp;
+    width: 800px;
     font-size:2rem;
+    background-color:rgb(151, 116, 89)
     }
-.contenedor2,h1{
-    
+.main{
+    height:100vh;
     padding: 110px,200px 25px;
-    background-color:rgb(242, 201, 193)
+    background-color:rgb(226, 144, 104)
+}
+.sección{
+    margin:auto;
+    padding:150px 20px
+    width:90px;
+    box-shadow:1px 1px 10px chocolate
+    text-align: center
+}
+.icons{
+    padding:20px 0 ;
+    color:brown
+
+}
+.icons i{
+    margin:0 5px;
+}
+.sección article{
+    margin-bottom:10px ;
+    text-align: center;
+    background-color: brown
+;
+}
+.btns{
+    padding:20px 30px
+    background-color:brown;
+    border:none;
+    color:white 
+    margin:0 10px;
+    cursor:pointer
+
 }
 .contenedor2{
     text-align: center;
