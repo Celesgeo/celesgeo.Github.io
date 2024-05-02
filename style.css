@@ -11,7 +11,7 @@ body{
     font-weight: bold;
     font-size: 40px;
     font-family:"yelowtail";
-    text-shadow: 0 0 35px rgb(190, 156, 97);
+    text-shadow: 0 0 35px rgb(81, 64, 35);
 }
 .boton{
     border: 1px solid brown;
@@ -23,7 +23,7 @@ body{
 
 }
 .header{
-    color:rgb(192, 155, 102);
+    color:rgb(88, 52, 52);
     text-align: center;
 
 }
@@ -89,7 +89,17 @@ padding: 20px 0;
     background-color: blanchedalmond;
     text-align: center;
     font-family:monospace;
-
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background-color: rgb(147, 101, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
 .contenedorimg{
 
 
