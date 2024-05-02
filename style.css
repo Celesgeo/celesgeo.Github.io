@@ -1,31 +1,42 @@
-.contenedor{
-    background-color: rgba(243, 200, 149, 0.9);
+*{
+    margin=0;
+    padding: 5;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 300%;
+}
+.header{
+    height: 30mp;
+    color:white
 }
 
 
-
-
-
-
+.header img{
+    text-align: center;
+    width: 200px;
+    border-radius: 150%;
+    border: solid 3px white;
+    transform:translateY(100)
+}
+body{
+    background-color: rgb(247, 218, 160);
+}
+.texto{
+    font-size:2rem;
+    margin-bottom: 10mp;
+}
 #titulo{
-    display:flex;
+    padding: 150px 0 40px 0;
     justify-content: center;
-    width: auto;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
+    width:50mp;
+    font-size:2rem;
     }
-.fotoperfil { 
-    justify-content: center;
-    width: 150px;
-    aspect-ratio: auto 150 / 212;
-
+.contenedor2,h1{
+    
+    padding: 110px,200px 25px;
+    background-color:rgb(242, 201, 193)
 }
-.columna2 {
-    width: 250px;
-    padding: 100px,50px 25px;
-    background-color:rgb(237, 192, 180)
-    text: aligne px;
-    
-    
-
+.contenedor2{
+    text-align: center;
 }
