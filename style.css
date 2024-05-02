@@ -1,23 +1,22 @@
 *{
-    margin=0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family:fantasy
-    text-align: center;
-    
+    font-family:fantasy;
+    text-align: center;   
 }
 body{
     background-color: rgb(247, 218, 160);
     text-align: center;}
 .header.logo.color{
     font-weight: bold;
-    font-size: 2,5rem;
+    font-size: 40px;
     font-family:"yelowtail";
     text-shadow: 0 0 35px white;
 }
 .header{
     height: 45mp;
-    color:white
+    color:white;
     text-align: center;
 
 }
@@ -25,11 +24,11 @@ body{
     text-align: center;
     width: 200px;
     border: solid 3px white;
-    border: radius 300%;
+    border-radius: 50%;
     }
 .texto{
     padding-top: 40px ;
-    background-color:rgb(237, 209, 195)
+    background-color:rgb(237, 209, 195);
 
 }
 #titulo{
@@ -39,50 +38,44 @@ body{
     padding: 100px 0 10px 0;
     justify-content: center;
     width: auto;
-    font-size:3rem;
-    background-color:rgb(151, 116, 89)
-    
-
+    font-size: 48px;
+    background-color:rgb(151, 116, 89);
     letter-spacing: 5mp;
     }
 .main{
     height:auto;
     padding: 300px,200px 25px;
-    background-color:rgb(226, 144, 104)
+    background-color:rgb(226, 144, 104);
     box-shadow: 0 0 20px #fff;
 
 }
 .sección{
     margin:auto;
     padding:10px 10px;
-    padding-bottom: 50px
-    box-shadow:1px 1px 10px chocolate
+    padding-bottom: 50px;
+    box-shadow:1px 1px 10px chocolate;
     text-align: center;
 }
 .icons{
     padding:20px 0 ;
-    color:brown
-   
-
+    color:brown;
 }
 .icons i{
     margin:0 5px;
-    cursor:pointer
+    cursor:pointer;
 }
 .sección article{
     margin-bottom:10px ;
     text-align: center;
     background-color: brown;
-    font-family:"yelowtail"
+    font-family:"yelowtail";
 }
 .btns{
-    padding:20px 300px
-    cursor:pointer
-
-    
+    padding:20px 300px;
+    cursor:pointer; 
 }
 .contenido{
-    margin: 50mp 0mp ;
+    margin: 50px 0px ;
 }
 .contenido h3{
     color: brown;
@@ -90,3 +83,18 @@ body{
     text-align: center;
     font-family:monospace;
 }
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color:#fff;
+}
+.habilidades.contenido-seccion{
+    max-width: 1000px;
+    margin:auto;
+    padding:0 10px;
+}
+
